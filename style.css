@@ -1,0 +1,22 @@
+.cell {
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+
+    margin: 5px;
+
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+
+    cursor: pointer;
+}
+
+#tic-tac-toe-board ::selection {
+    background-color: transparent;
+    color: #000;
+}
+
+.win {
+    background-color: mediumseagreen;
+}
